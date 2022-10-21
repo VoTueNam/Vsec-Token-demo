@@ -20,7 +20,7 @@ async function connect() {
 
 async function loadData() {
     if (typeof window.ethereum !== "undefined") {
-        const statusLoading = "Đợi tí!";
+        const statusLoading = "Loading ...";
 
         document.getElementById("myBalance").innerHTML = statusLoading;
         document.getElementById("nameToken").innerHTML = statusLoading;
